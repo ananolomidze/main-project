@@ -1,0 +1,33 @@
+body{
+    .cont{
+        @include goFlex(column, space-between,);
+    
+    }
+    li{
+        color: aqua;
+        font-size: 20px;
+    display:inline-block;
+    margin-left: 20px;
+    }
+    .row .carousel{
+    @include goFlex(column, space-between, center);
+   }
+    .row{
+        @include goFlex(column, space-between, center);
+        margin-top: 30px;
+        width: 100%;
+    }
+    .col {
+        margin-bottom: 30px;
+    }
+    .pic{
+        border-radius: 5%;
+    }
+   .carousel{
+    margin-top: 30px;
+   }
+
+    
+   
+}
+    
